@@ -19,7 +19,7 @@ public class ProdutoRepositoryTest {
     private ProdutoRepository produtoRepository;
 
     @Test
-    public void quandoSalvarCliente_entaoEncontrarPorNome() {
+    public void quandoSalvarProduto_entaoEncontrarPorNome() {
         Produto produto = new Produto();
         produto.setNome("Fone de Ouvido JBL");
         produto.setPreco(99.90);
